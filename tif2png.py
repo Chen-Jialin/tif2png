@@ -4,7 +4,7 @@ from PIL import Image
 
 cwd = os.path.split(os.path.realpath(__file__))[0]
 print("The current working directory: " + cwd)
-print("Now to convert all picture in the current working directory and its subdirectories from tif into png format.")
+print("Now to convert all pictures in the current working directory and its subdirectories from tif into png format.")
 input("Press ENTER to continue...")
 
 success_num = 0
