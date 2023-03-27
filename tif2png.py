@@ -20,7 +20,7 @@ for (dir_name, sub_dirs, file_names) in os.walk(cwd):
                     file.save(os.path.splitext(file_path)[0] + ".png", "png")
                     os.remove(file_path)
                     success_num += 1
-                    print("Finished.")
+                    print("Succeeded.")
                 except Exception:
                     err_num += 1
                     print("Error occurred.")
